@@ -15,33 +15,17 @@
 
 ## Empathy Process Flow (Flowchart)
 
-> **Note:** Draw this flowchart in Lucidchart and replace the placeholder below with your sharable link.
-
-**[Insert Lucidchart Sharable Link Here]**
-
-### Flowchart Structure (for Lucidchart):
-```text
-Start
-  ↓
-Identify User (Cyber Security Analyst / Investigator)
-  ↓
-Understand User Needs (Fast & Accurate Investigation)
-  ↓
-Observe User Challenges (Manual OSINT Collection, Scattered Data)
-  ↓
-Gather User Feedback (Surveys, Interviews, Research)
-  ↓
-Define Pain Points (Time Consumption, Data Overload)
-  ↓
-Generate Solutions (Automated OSINT Collection)
-  ↓
-Develop SpiderVision Intelligence
-  ↓
-Test with Users
-  ↓
-Collect Feedback
-  ↓
-Improve Features
-  ↓
-End
+```mermaid
+graph TD
+    A([Start]) --> B[Identify User<br/><i>Cyber Security Analyst / Investigator</i>]
+    B --> C[Understand User Needs<br/><i>Fast & Accurate Investigation</i>]
+    C --> D[Observe User Challenges<br/><i>Manual OSINT Collection, Scattered Data</i>]
+    D --> E[Gather User Feedback<br/><i>Surveys, Interviews, Research</i>]
+    E --> F[Define Pain Points<br/><i>Time Consumption, Data Overload</i>]
+    F --> G[Generate Solutions<br/><i>Automated OSINT Collection</i>]
+    G --> H[Develop SpiderVision Intelligence]
+    H --> I[Test with Users]
+    I --> J[Collect Feedback]
+    J --> K[Improve Features]
+    K --> L([End])
 ```
